@@ -1,6 +1,6 @@
 # SmartSVNReverter
 
-Challenge - I have a stable branch accompanied by nightly tests. Person A checks in something unstable. Day 1 nightly detects it. On day 2, person B wants to check-in. Well he can't really know his failures as branch is already unstable. So this is where this utility steps in. It reverts all checkins made before last run upto last to last run. So, that it tests last window's check-ins on base. Helpful in running daily tests where many people are working on same branch. Typicaly bug fix branches.
+Challenge - I have a stable branch accompanied by nightly tests. Person A checks in something unstable. Day 1 nightly detects it. On day 2, person B wants to check-in. Well he can't really know his failures as branch is already unstable. So this is where this utility steps in. It reverts all checkins made before last run upto last to last run. So, that it tests last window's check-ins on base. Helpful in running daily tests where many people are working on same branch. Typically bug fix branches.
 <br />
 <br />
 
